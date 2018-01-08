@@ -5,10 +5,10 @@ library(ggplot2)
 
 
 # 2. Authenticate with Twitter's API ####
-consumer_key <- "mMnuLEJCBKhzf3UVmcfPUCAdG"
-consumer_secret <- "CK2dsT6gtos0CmjclN0v9sQqJ85TtNGj3AFozpxysqr1p807zh"
-access_token <- "165621372-kcNw3OUxMIBfMgkXJxUo3KYw1XKcXz5gc3wD2Pdt"
-access_secret <- "MIVq4u9jHiRRXHzYdIzvzT2w7i4wfKPWaNJvjnG1ZwRQa"
+consumer_key <- "INSERT CONSUMER_KEY HERE"
+consumer_secret <- "INSERT CONSUMER_SECRET HERE"
+access_token <- "INSERT ACCESS_TOKEN HERE"
+access_secret <- "INSERT ACCESS_SECRET HERE"
 
 setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 
@@ -67,7 +67,7 @@ twitteR::as.data.frame()
 JamesGRickards = twitteR::lookupUsers('JamesGRickards')
 JamesGRickards$JamesGRickards$description
 
-JGR = getUser('JoeRogan')
+JGR = getUser('JamesGRickards')
 JGR$description
 JGR$created
 JGR$lastStatus
